@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 520px;
+  padding: 80px 24px;
+}
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 8px;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  color: #111;
+  font-family: monospace;
+  text-transform: uppercase;
+  border-bottom: 4px solid #111;
+  padding-bottom: 16px;
+  margin-bottom: 48px;
+}
+
+.field {
+  border: 2px solid #111;
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-family: monospace;
+  background: #f5f0e8;
+  color: #111;
+  outline: none;
+  display: block;
+}
+
+.field:focus {
+  background: #fff;
+}
+
+.field::placeholder {
+  color: #aaa;
+}
+
+.btn {
+  border: 2px solid #111;
+  border-top: none;
+  background: #111;
+  color: #f5f0e8;
+  font-family: monospace;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.btn:hover {
+  background: #f5f0e8;
+  color: #111;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.result-block {
+  border: 2px solid #111;
+  border-top: none;
+  padding: 16px;
+  background: #fff;
+}
+
+.result-label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #888;
+  font-family: monospace;
+  margin-bottom: 6px;
+}
+
+.result-url {
+  font-family: monospace;
+  font-size: 14px;
+  color: #111;
+  word-break: break-all;
+  text-decoration: none;
+  border-bottom: 1px solid #111;
+}
+
+.result-url:hover {
+  color: #555;
+}
+
+.err {
+  font-family: monospace;
+  font-size: 13px;
+  color: #c00;
+  margin-top: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.counter {
+  font-family: monospace;
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 48px;
+  letter-spacing: 0.05em;
+}
