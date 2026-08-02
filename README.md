@@ -2,6 +2,8 @@
 
 A serverless URL shortener built on AWS. Paste in a long link, get a short one back that sends you to the original.
 
+![Demo](docs/demo.gif)
+
 ## What it does
 
 You put a long URL into the frontend and it hands you back a short link. Click that link and it takes you to the original site. The backend is fully serverless, so there's no server sitting around costing money when nobody's using it.
